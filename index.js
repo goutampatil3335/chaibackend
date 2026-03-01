@@ -58,7 +58,6 @@ app.get('/youtube', (req, res) => {
 })
 
 app.get('/github', (req, res) => {
-    // return the hardcoded profile data for now
     res.json(githubData)
 })
 
