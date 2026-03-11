@@ -58,7 +58,7 @@ app.get('/youtube', (req, res) => {
 })
 
 app.get('/github', (req, res) => {
-    res.json(githubData)
+    res.json(githubData) // sending JSON data
 })
 
 app.listen(port, () => {
